@@ -9,7 +9,7 @@ app = fastapi.FastAPI()
 @app.get('/')
 def index():
     return {
-        "message": " Que onda wey",
+        "message": "Answer from repo_five",
         "usage": "Call /api/movie/{title} to use the API"
     }
 

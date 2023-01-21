@@ -11,3 +11,10 @@ the long string is the image id
 
 to run manually from docker console :
 root@2dbbfa564d49:/app# /usr/local/bin/gunicorn main:app -b 0.0.0.0 80
+
+[MRE 18-1-23]
+
+This configuration works properly with this commands:
+# Image
+docker build -t <image name> .
+docker run -p 80:80 <image name>
