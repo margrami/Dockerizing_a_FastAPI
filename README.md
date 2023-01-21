@@ -1,5 +1,4 @@
 # Dockerizing_a_FastAPI
-Dockerizing a python- fastAPI
 
 This repository contains three examples of containerizing using the same fastAPI code.
 
