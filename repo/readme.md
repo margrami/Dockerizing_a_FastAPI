@@ -6,12 +6,15 @@ I need to solve the problem about the uvicorn. cheking if the name must be app i
 because when I run uvicorn as unicorn service.main:app. it can import movie_data.py.
 
 for the time being it is running with this configuration:
+'''bash
 .
 ├── Dockerfile
 ├── main.py
 |── movie_data.py
    |── models
 └── requirements.txt
+
+'''
 
 but this implies made a copy of every file to the workdir /code.
 
